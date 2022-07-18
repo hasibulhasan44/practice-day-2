@@ -1,0 +1,82 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* common styles */
+body{
+    background-color: rgba(255, 192, 203, 0.322);
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    width: 870px;
+    border-radius: 10px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+
+/* ------------------------
+Top Player section styles 
+--------------------------*/
+.section-title{
+    color: #562EFF;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    font-size: 18px;
+    padding-left: 16px;
+}
+/* -------------------
+ Blog area styles
+-------------------- */
+.blog-title{
+    color: #562EFF;
+    margin-top: 33px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+    margin: 35px;
+    align-items: center;
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-detail{
+    margin-left: 16px;
+}
+.blog-detail h3{
+    font-size: 16px;
+}
+.blog-detail p{
+    color: #9F9F9F;
+    font-size: 10px;
+}
+.blog-detail p a{
+    text-decoration: none;
+    color: #562EFF;
+}
